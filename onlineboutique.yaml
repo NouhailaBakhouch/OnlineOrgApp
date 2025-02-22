@@ -949,12 +949,12 @@ spec:
             memory: 300Mi
         readinessProbe:
           initialDelaySeconds: 20
-          periodSeconds: 15
+          periodSeconds: 20
           grpc:
             port: 9555
         livenessProbe:
           initialDelaySeconds: 20
-          periodSeconds: 15
+          periodSeconds: 20
           grpc:
             port: 9555
 ---
